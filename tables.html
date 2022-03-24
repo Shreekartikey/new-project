@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: blanchedalmond;">
+    <form action="a.php">
+   <label for="form">Name:</label>
+   <input type="text" placeholder="Enter your name" id="form"> <br>
+   <label for="email">Your Email:</label>
+   <input type="email" name="" id="email" placeholder="Your Email"> <br>
+   <label for="age">Password:</label> 
+   <input type="password" name="" id="age" placeholder="Your Password">
+</form>
+   <hr>
+   <center><p><b>Here is the Table of Courses we offer choose it and submit it</b></p></center>
+   <center><table border="2">
+    <thead>
+        <caption><u><b>Course</b></u></caption>
+        <tr>
+            <th>Course Name</th>
+            <th>Instructor name</th>
+            <th>Text editor</th>
+            <th>Days to complete</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Web development</td>
+            <td>Shree Kartikey</td>
+            <td>Vs code</td>
+            <td>180</td>
+        </tr>
+        <tr>
+            <td>iOS development</td>
+            <td>Patrick collins</td>
+            <td>Atom</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Blockchain development</td>
+            <td>James anderson</td>
+            <td>Solidity</td>
+            <td>180</td>
+        </tr>
+        <tr>
+            <td>Graphic design</td>
+            <td>Shree Kartikey Agarwal</td>
+            <td>Photoshop</td>
+            <td>30</td>
+        </tr>
+    </tbody>
+</table></center> 
+<form action="p.php">
+<label for="s">Choose yourself a good course:</label>
+<select name="course" id="s">
+    <option value="Web development">Web development</option>
+    <option value="iOS development">iOS development</option>
+    <option value="Blockchain development">Blockchain development</option>
+    <option value="Graphic design">Graphic design</option>
+</select> <br>
+<label for="submit"></label>
+<input type="submit" value="Submit it " id="submit"> <br>
+
+<label for="feedback">Your Feedback:</label> <br>
+<textarea name="" id="feedback" cols="30" rows="10" placeholder="Your Feedback"></textarea> <br>
+<input type="submit" value="Submit Feedback">
+</form>
+</body>
+</html>
